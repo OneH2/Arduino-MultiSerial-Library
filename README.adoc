@@ -1,5 +1,5 @@
-:repository-owner: arduino-libraries
-:repository-name: ArduinoRS485
+:repository-owner: Robert Pink
+:repository-name: ArduinoRS485_MultiSerial
 
 = {repository-name} Library for Arduino =
 
@@ -8,6 +8,7 @@ image:https://github.com/{repository-owner}/{repository-name}/actions/workflows/
 image:https://github.com/{repository-owner}/{repository-name}/actions/workflows/spell-check.yml/badge.svg["Spell Check status", link="https://github.com/{repository-owner}/{repository-name}/actions/workflows/spell-check.yml"]
 
 Enables sending and receiving data using the RS-485 standard with RS-485 shields, like the MKR 485 Shield.
+Allows one to choose which additiona port to select for rs485
 
 This library supports the Maxim Integrated MAX3157 and equivalent chipsets.
 
